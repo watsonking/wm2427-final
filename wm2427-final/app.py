@@ -15,7 +15,7 @@ def hello():
 
 @app.route("/semester")
 def course():
-    return render_template("semester.html")
+    return render_template("Course.html")
 
 @app.route("/identity")
 def tp():
