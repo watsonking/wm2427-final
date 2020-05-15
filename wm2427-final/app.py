@@ -15,15 +15,15 @@ app = Flask(__name__)
 @app.route("/")
 def hello():
     return render_template("index.html")
-@app.route("/1006")
-def course():
-    return render_template("columbia.html")
 @app.route("/semester")
-def columbia():
+def course():
     return render_template("semester.html")
-@app.route("/tester")
-def tester1():
-    return render_template("index1.html")
+@app.route("/identity")
+def tp():
+    return render_template("African.html")
+@app.route("/love")
+def lp():
+    return render_template("Oldpoem.html")
  
 
 
